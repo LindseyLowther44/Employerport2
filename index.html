@@ -5,58 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My custom Bulma website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    
     <link rel="stylesheet" href="./src/mystyles.css">
   </head>
   <body>
-    <section class="hero is-medium is-primary is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
+    <section class="hero is-large is-transparent is-bold has-bg-img">
+
+      <div class="hero-body has-text-centered">
+        <div class="container" id="nameBanner">
+          <h1 class="title is-1">
             Lindsey Lowther
           </h1>
           <h2 class="subtitle">
             Front-End Web Developer
           </h2>
+      
+        </div>
+      </div>
+        <div class="hero-foot">
+          <nav class="tabs is-boxed is-fullwidth">
+            <div class="container">
+              <ul>
+                <li class="is-active"><a href="https://github.com/LindseyLowther44"><i class="fab fa-github"></i></a></li>
+                <li class="is-active"><a href="https://www.linkedin.com/in/lindsey-lowther-98a67a99/"><i class="fab fa-linkedin"></i></a></li>
+                <li class="is-active"><a><i class="far fa-file"></i></a></li>
+
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
     </section>
-    
+    <br>
     <div class="tile is-ancestor">
-      <div class="tile is-vertical is-8">
+      <div class="tile is-vertical is-12">
         <div class="tile">
           <div class="tile is-parent is-vertical">
             <article class="tile is-child box">
               <!-- Put any content you want -->
-              <figure class="image is-256x256">
-                <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+              <figure class="image is-2by3">
+                <img src="dist/images/simple.jpeg">
               </figure>
             </article>
           </div>
-          <div class="tile is-parent">
+          <div class="tile is-parent has-text-centered">
             <article class="tile is-child box">
+              <h1 class="title is-2">
               <!-- Put any content you want -->
-              <h1 class="title is-3">
-                A little about me:
-              </h1>
-              <p class="subtitle">
-              </p>
-            </article>
-          </div>
-
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-            </article>
-          </div>
-        <!-- </div> -->
-        <div class="tile is-parent">
-          <article class="tile is-child box">
-            <!-- Put any content you want -->
-            <h1 class="title is-3">
-              A little about me:
+              About Me
             </h1>
-            <p class="subtitle">
+            <br>
+            <p class="subtitle " style="font-size: 1.5rem;">
               Front-End Web Developers with a Certificate in Full Stack Web Development from the University of
           Texas-Austin. Extensive background in Cosmetology that provides insight on how communication correlates
           with design. With an extensive background, communication has lead to high client retention proving
@@ -64,14 +65,244 @@
           functional and sleek user interfaces that encourage social media attraction. Excited to leverage skills
           in HTML, CSS, JavaScript, and Firebase to create designs that can elevate any business.
             </p>
+            </article>
+          </div>
+
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <div class="columns is-multiline">
+              <div class="column is-12 about-me">
+                <h1 class="title has-text-centered section-title">Skills</h1>
+              </div>
+              <div
+                class="column is-6"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <h1>Html</h1>
+                <progress class="progress is-primary" value="70" max="100">70%</progress>
+                <h1>CSS</h1>
+                <progress class="progress is-success" value="80" max="100">80%</progress>
+                <h1>JavaScript</h1>
+                <progress class="progress is-warning" value="50" max="100">50%</progress>
+                <h1>Visual Studio Code</h1>
+                <progress class="progress is-success" value="80" max="100">80%</progress>
+              </div>
+              <div
+                class="column is-6"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <h1>NodeJs</h1>
+                <progress class="progress is-primary" value="60" max="100">60%</progress>
+                <h1>MySQL</h1>
+                <progress class="progress is-primary" value="60" max="100">60%</progress>
+                <h1>MongoDB</h1>
+                <progress class="progress is-danger" value="30" max="100">30%</progress>
+                <h1>Handlebars</h1>
+                <progress class="progress is-warning" value="50" max="100">60%</progress>
+              </div>
+            </div>
+            </article>
+          </div>
+        <!-- </div> -->
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <!-- Put any content you want -->
+            <h1 class="title is-3">My Projects</h1>
+            <div class="columns is-multiline">
+            <div class="column is-4">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  <br>
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="column is-4">
+
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  <br>
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="column is-4">
+
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/400x400.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+            
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                  <a href="#">#css</a> <a href="#">#responsive</a>
+                  <br>
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          
+            </div>
+            <div class="column is-4">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                    <a href="#">#css</a> <a href="#">#responsive</a>
+                    <br>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="column is-4">
+  
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                    <a href="#">#css</a> <a href="#">#responsive</a>
+                    <br>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+              </div>
+  
+              <div class="column is-4">
+  
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/400x400.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                    <a href="#">#css</a> <a href="#">#responsive</a>
+                    <br>
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+            
+              </div>
           </article>
         </div>
       </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-          <!-- Put any content you want -->
-          
-        </article>
       </div>
     </div>
   </body>

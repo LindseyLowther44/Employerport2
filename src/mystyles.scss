@@ -13,9 +13,9 @@ $beige-lighter: #EFF0EB;
 
 // Update Bulma's global variables
 $family-sans-serif: 'Oswald', sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-$primary: $purple;
+$grey-dark: $pink;
+$grey-light: $beige-lighter;
+$primary: $blue;
 $link: $pink;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
@@ -36,3 +36,23 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
+
+.has-bg-img { 
+    background-color: rgba(237, 229, 240, 0.63);
+    background-image: url('https://lh3.googleusercontent.com/PQJ4hflLPKyaYE-lgn9LRCCkdbivWzAQ82grG-EeqCzhfZDPt6r3G9vM4YwjXqPlqTDPP9k39MDsrUihBIOjxnQ8JY8izcHFCO_uzk9_rIioHNQMRrDdW8vionWth3Ucza6Uv_V61yIerck4s5r9bRTr2143fItsjqTiNGFheuP50R2MOmzhXzZooni2Ohl2Zyn_Q2-Fo_RtHYYyQXQOnvHDUjeNDm1jYjl1M6ciPWRLcDzNmQKXeXS0JFiRQAHhynybidvCxa8A66CXp0610XxdHtslnf6k0xsvD7McqXDzMwJqwHYamppJRd6Y9SdLgrN9YKsVjk7ZzKXAKNpraSd7bkuOZoTEH8NwCRnlucgIaC4gMvG1Mj2ET8i13T1lgghrx2aRZaNldKbU90HdZoSFcr6FeO7Dodt5ClzHNZ6FUFfMr-s_Kqevws-MhD3CW6tvhCVtLpXyLHcxOs_6ikmxi80WictMTg2xKKB4OBqFmzNIaeVEl1YBHEV8ja2jdFzmEWhmEKoZ9-e_jAvoD3HOkGup_56RjjWYWpdRZsxRZxQ0Z-qAY2II_BHv9yAf1mjwLACzlc9mmietEyKaZaOJeGnZOQMKN64ePeFvxKft1OXWSSvA62j9lTDQviyXW817CT0sDBQ6aV9PjBBQqj-447_kwZXDX9UHwjGeDizbytYzQ6laTMX6QJQ=w1299-h868-no?authuser=0');
+    background-size: cover;
+    
+}
+
+#nameBanner {
+    
+    .title {
+        
+        font-size: 5rem;
+        color: $dark;
+        opacity: 1;
+    }
+    .subtitle {
+        color: $blue;
+    }
+}
