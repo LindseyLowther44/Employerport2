@@ -82,7 +82,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -95,10 +95,10 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
   line-height: 1.5;
-  padding-bottom: calc(0.5em - 2px);
-  padding-left: calc(0.75em - 2px);
-  padding-right: calc(0.75em - 2px);
-  padding-top: calc(0.5em - 2px);
+  padding-bottom: calc(0.5em - 3px);
+  padding-left: calc(0.75em - 3px);
+  padding-right: calc(0.75em - 3px);
+  padding-top: calc(0.5em - 3px);
   position: relative;
   vertical-align: top;
 }
@@ -1167,16 +1167,16 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .button {
   background-color: white;
   border-color: #dbdbdb;
-  border-width: 2px;
+  border-width: 3px;
   color: #363636;
   cursor: pointer;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: calc(0.5em - 2px);
+  padding-bottom: calc(0.5em - 3px);
   padding-left: 1em;
   padding-right: 1em;
-  padding-top: calc(0.5em - 2px);
+  padding-top: calc(0.5em - 3px);
   text-align: center;
   white-space: nowrap;
 }
@@ -1191,18 +1191,18 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 }
 
 .button .icon:first-child:not(:last-child) {
-  margin-left: calc(-0.5em - 2px);
+  margin-left: calc(-0.5em - 3px);
   margin-right: 0.25em;
 }
 
 .button .icon:last-child:not(:first-child) {
   margin-left: 0.25em;
-  margin-right: calc(-0.5em - 2px);
+  margin-right: calc(-0.5em - 3px);
 }
 
 .button .icon:first-child:last-child {
-  margin-left: calc(-0.5em - 2px);
-  margin-right: calc(-0.5em - 2px);
+  margin-left: calc(-0.5em - 3px);
+  margin-right: calc(-0.5em - 3px);
 }
 
 .button:hover, .button.is-hovered {
@@ -2967,8 +2967,8 @@ fieldset[disabled] .select select:-ms-input-placeholder,
 
 .input.is-rounded {
   border-radius: 290486px;
-  padding-left: calc(calc(0.75em - 2px) + 0.375em);
-  padding-right: calc(calc(0.75em - 2px) + 0.375em);
+  padding-left: calc(calc(0.75em - 3px) + 0.375em);
+  padding-right: calc(calc(0.75em - 3px) + 0.375em);
 }
 
 .input.is-static {
@@ -2984,7 +2984,7 @@ fieldset[disabled] .select select:-ms-input-placeholder,
   display: block;
   max-width: 100%;
   min-width: 100%;
-  padding: calc(0.75em - 2px);
+  padding: calc(0.75em - 3px);
   resize: vertical;
 }
 

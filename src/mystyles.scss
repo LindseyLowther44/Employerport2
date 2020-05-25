@@ -22,7 +22,7 @@ $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
 $body-background-color: $beige-lighter;
-$control-border-width: 2px;
+$control-border-width: 3px;
 $input-border-color: transparent;
 $input-shadow: none;
 
@@ -45,9 +45,7 @@ $input-shadow: none;
 }
 
 #nameBanner {
-    
     .title {
-        
         font-size: 5rem;
         color: $dark;
         opacity: 1;
